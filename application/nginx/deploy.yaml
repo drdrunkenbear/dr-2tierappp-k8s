@@ -29,8 +29,8 @@ spec:
         app: clear-nginx
     spec:
       containers:
-      - name: clear-nginx
-        image: clearlinux/nginx
+      - name: nginx
+        image: nginx
         volumeMounts:
         - mountPath: /var/www/html
           name: site-data
